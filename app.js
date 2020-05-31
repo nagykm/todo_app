@@ -4,7 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const ObjectId = require("mongodb").ObjectID; 
 
-app.use(express.static('public'));
+//app.use(express.static('public'));-nincs kiszolgálandó asset
 
 function getId(raw) {
     try {
